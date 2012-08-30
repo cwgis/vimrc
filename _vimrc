@@ -18,11 +18,20 @@ set nowrap																		"Disable line wrapping"
 
 set tabstop=4																	"Size of tabs if tab are enabled"
 "set expandtab																	"Use tabs instead of tabs"
-set shiftwidth=2																"Move
+set shiftwidth=4																"Move
 "set softtabstop=4
 
-
 set autoindent																	"Enable auto indentation"
+
+
+" resolve the term and context has chinese string
+set fileencodings=utf-8,gb2312,gb18030
+set termencoding=utf-8
+set encoding=prc
+
+" resolve the menu messy code if has chinese string
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
 
 
 highlight cMember gui=bold
