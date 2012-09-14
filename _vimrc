@@ -1,28 +1,51 @@
-syntax on
-colorscheme vilight
-setlocal spell spelllang=en_us													"Enable spell check and set language to English"
-set hlsearch																	"Highlight search results"
-set nocompatible																"Disable backwards compatibility with vi"
-"set guifont=monaco:h14
-set guifont=Courier\ New:h13:b
+"config the pathogen plugin
+call pathogen#infect()
 
+"make the syntax enable
+syntax on
+
+"set the color scheme for programming language
+colorscheme vilight
+
+"enable spell check and set language to English"
+setlocal spell spelllang=en_us
+
+"Highlight search results"
+set hlsearch
+
+"Hightlight cursor line
+set cursorline
+
+"Disable backwards compatibility with vi"
+set nocompatible
+
+"set the style of font
+set guifont=Courier\ New:h13:b
+highlight cMember gui=bold
+
+"display tab and whitespace to check
 set list
 set listchars=tab:>.,trail:.
 
+"set line number
 set number
-"set relativenumber																"Relative line numbers"
 
-set cursorline																	"Highlight current line"
+"Highlight current line
+set cursorline
 set guicursor+=i:ver10-iCursor
-set nowrap																		"Disable line wrapping"
 
-set tabstop=4																	"Size of tabs if tab are enabled"
-"set expandtab																	"Use tabs instead of tabs"
-set shiftwidth=4																"Move
+"Disable line wrapping"
+set nowrap
+
+"Size of tabs if tab are enabled"
+set tabstop=4
+
+"move
+set shiftwidth=4
 "set softtabstop=4
 
-set autoindent																	"Enable auto indentation"
-
+"Enable auto indentation"
+set autoindent
 
 " resolve the term and context has chinese string
 set fileencodings=utf-8,gb2312,gb18030
@@ -33,18 +56,17 @@ set encoding=prc
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
+"Display mode your in below
+set showmode
 
-highlight cMember gui=bold
+"Display commands executed
+set showcmd
 
-
-
-set showmode																	"Display mode your in below"
-set showcmd																		"Display commands executed"
-set wildmenu																	"CMD completeion"
-set cursorline																	"Hightlight cursor line"
-
+"CMD completeion
+set wildmenu
 
 
+"default configure when install vim
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
@@ -69,4 +91,3 @@ function MyDiff()
   endif
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
-
