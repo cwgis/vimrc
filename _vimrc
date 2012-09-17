@@ -19,8 +19,17 @@ set cursorline
 "Disable backwards compatibility with vi"
 set nocompatible
 
-"set the style of font
-set guifont=Courier\ New:h13:b
+"config the full screen when start and set the style of font
+if (has ("gui_win32"))
+	"config the full screen
+	au GUIEnter * simalt ~x
+	set guifont=Courier\ New:h13:b
+elseif (has ("gui_x11"))
+	set guifont=Droid\ Sans\ Mono\ 14
+else
+	set guifont=Droid\ Sans\ Mono:h18
+endif
+
 highlight cMember gui=bold
 
 "display tab and whitespace to check
@@ -64,6 +73,7 @@ set showcmd
 
 "CMD completeion
 set wildmenu
+
 
 
 "default configure when install vim
