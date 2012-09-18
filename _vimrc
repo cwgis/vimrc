@@ -1,4 +1,4 @@
-"config the pathogen plugin
+"active the pathogen plugin
 call pathogen#infect()
 
 "make the syntax enable
@@ -46,18 +46,26 @@ set guicursor+=i:ver10-iCursor
 "Disable line wrapping"
 set nowrap
 
+" delete the swap file when edit an file
+set nobackup
+set nowb
+set noswapfile
+
 "Size of tabs if tab are enabled"
 set tabstop=4
 
 "move
 set shiftwidth=4
-"set softtabstop=4
+set softtabstop=4
 
 "Enable auto indentation"
 set autoindent
 
+" set backspace action
+set backspace=indent,eol,start
+
 " resolve the term and context has chinese string
-set fileencodings=utf-8,gb2312,gb18030
+set fileencoding=utf-8
 set termencoding=utf-8
 set encoding=prc
 
