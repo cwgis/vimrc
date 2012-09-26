@@ -1,6 +1,6 @@
 vimrc
 =====
-set vimrc by custom plugin and third-party plugin with pathogen.
+set vimrc for custom plugin and third-party plugin with pathogen.
 
 vimrc has two files, vimrc for linux and _vimrc for windows.
 
