@@ -7,3 +7,6 @@
 [submodule "bundle/viligth.vim"]
 	path = bundle/viligth.vim
 	url = git@github.com:vim-scripts/vilight.vim.git
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = git@github.com:vim-scripts/bufexplorer.zip.git
