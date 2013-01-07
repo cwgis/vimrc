@@ -55,9 +55,6 @@ set fileformats=unix,dos,mac
 "Display mode your in below
 set showmode
 
-" set wrap
-set wrap
-
 "Display commands executed
 set showcmd
 
