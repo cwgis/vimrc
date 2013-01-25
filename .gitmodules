@@ -37,3 +37,6 @@
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = git@github.com:mattn/gist-vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git

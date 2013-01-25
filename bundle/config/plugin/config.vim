@@ -3,6 +3,9 @@ set t_Co=256
 "set the color scheme for programming language
 colorscheme molokai
 
+" enable plugin of every filetype
+filetype plugin on
+
 " display tab and whitespace to check
 set list
 set listchars=tab:>.,trail:.
