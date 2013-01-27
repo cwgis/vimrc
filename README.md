@@ -8,7 +8,7 @@ I put vim related settings in `bundle/config/plugin/config.vim` and iIsolate oth
 
 Installing
 ----------
-Clone this repo
+Clone this repo:
 
 	git clone git://github.com/cwgis/vimrc.git ~/.vim
 	cd ~/.vim && mv vimrc ~/.vimrc
