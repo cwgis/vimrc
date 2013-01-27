@@ -39,9 +39,6 @@ nmap Y y$
 " ======================================
 "  custom key and plugin configurations
 " ======================================
-" remove tailing whitespace
-autocmd BufWritePre * :%s/\s\+$//e
-
 " toggle line numer using F5
 nmap <silent> <F5> :set invnu<CR>
 

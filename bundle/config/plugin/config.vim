@@ -1,5 +1,6 @@
 " set t_Co > 255 for molokai colorscheme because linux's TERM is not GUI
 set t_Co=256
+
 "set the color scheme for programming language
 colorscheme molokai
 
@@ -10,7 +11,7 @@ colorscheme molokai
 set list
 set listchars=tab:>.,trail:.
 
-"make the syntax enable
+"make the syntax enable syntax on
 syntax on
 
 "enable spell check and set language to English"
@@ -20,7 +21,6 @@ setlocal spell spelllang=en_us
 set hlsearch
 set incsearch
 set cursorline
-
 "Disable backwards compatibility with vi"
 set nocompatible
 
@@ -66,3 +66,6 @@ set wildmenu
 
 " set mouse enable
 set mouse=a
+
+" remove tailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
