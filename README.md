@@ -11,6 +11,7 @@ Installing
 
 1. Clone this repo
 
+	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
     `git clone git://github.com/cwgis/vimrc.git ~/.vim`
 
     `cd ~/.vim && mv vimrc ~/.vimrc`
