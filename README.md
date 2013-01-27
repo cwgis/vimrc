@@ -6,8 +6,19 @@ I put vim related settings in `bundle/config/plugin/config.vim` and iIsolate oth
 
 `vimrc`, standard version vimrc only config vimruntime with `pathogen` plugin, you can link your `~/.vimrc` to any one of them as you wish
 
-Shortcut Config
----------------
+Installing
+----------
+1. Clone this repo::
+
+   >git clone git://github.com/nvie/vimrc.git
+
+2. Fetch submodules::
+
+   >git submodule init
+   >git submodule update
+
+Shortcut
+--------
 1. BACKUP your `.vim` directory and `.vimrc` first.(IMPORTANT!)
 
 2. Some usually used key mappings in normal mode:
@@ -16,7 +27,7 @@ Shortcut Config
 
 	b. `bf` to toggle bufexplorer on and off
 
-    c. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
+	c. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
 
 	d. `ii` to Esc and save
 
