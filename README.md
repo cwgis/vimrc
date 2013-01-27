@@ -17,13 +17,13 @@ Installing
 
 2. Fetch submodules, in your `~/.vim` directory::
 
-    `git submodules init`
+    `git submodule init`
 
-    `git submodules update`
+    `git submodule update`
 
 3. Upgrade submodules or plugins, in your `~/.vim` directory::
 
-    `git submodules foreach "git checkout master && git pull"`
+    `git submodule foreach "git checkout master && git pull"`
 
 Shortcut
 --------
