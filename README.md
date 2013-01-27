@@ -1,5 +1,4 @@
 vimrc
-    cd ~/.vim && ./install.sh
 =====
 Personal vim configurations and some plugins which used in my daily job.
 
@@ -7,8 +6,8 @@ I put vim related settings in `bundle/config/plugin/config.vim` and iIsolate oth
 
 `vimrc`, standard version vimrc only config vimruntime with `pathogen` plugin, you can link your `~/.vimrc` to any one of them as you wish
 
-Installing
-----------
+##Installing
+
 1. Clone this repo::
 
     git clone git://github.com/cwgis/vimrc.git ~/.vim
