@@ -1,13 +1,28 @@
 vimrc
 =====
-set vimrc for custom plugin and third-party plugin with pathogen.
+Personal vim configurations and some plugins which used in my daily job.
 
-vimrc has two files, vimrc for linux and _vimrc for windows.
+I put vim related settings in `bundle/config/plugin/config.vim`
 
-vimrc just import the pathogen plugin and use pathogen to manage vim plugin includes custom plugin and third-party plugin.
+Isolate other plugins' settings in `bundle/config/` directory
 
-example
+`vimrc`, standard version vimrc only config vimruntime with pathogen
+
+you can link your `~/.vimrc` to any one of them as you wish
+
+plugin list
+-----------
+NERDTree
+
+
+shortcut config
+---------------
+
+FAQ
+---
+
+contact
 -------
-we always set indent and colorscheme in vimrc, now we extract a config.vim(custom plugin) under bundle/config/plugin directory.
-
-
+If there's any question or comment, feel free to let me know
+email (caiwengui0927@gmail.com)
+weibo [sina](http://weibo.com/u/1929039863?wvr=5&)
