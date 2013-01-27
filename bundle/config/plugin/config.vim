@@ -41,7 +41,7 @@ set smarttab
 set shiftwidth=4
 set softtabstop=4
 " enabla for listchars
-set noexpandtab
+"set noexpandtab
 
 "Enable auto indentation"
 set autoindent
