@@ -1,4 +1,5 @@
 vimrc
+    cd ~/.vim && ./install.sh
 =====
 Personal vim configurations and some plugins which used in my daily job.
 
@@ -10,17 +11,17 @@ Installing
 ----------
 1. Clone this repo::
 
-	git clone git@github.com/cwgis/vimrc.git ~/.vim
-	cd ~/.vim && mv vimrc ~/.vimrc
+    git clone git://github.com/cwgis/vimrc.git ~/.vim
+    cd ~/.vim && mv vimrc ~/.vimrc
 
 2. Fetch submodules, in your `~/.vim` directory
 
-	git submodule init
-	git submodule update
+    git submodules init
+    git submodules update
 
 3. Upgrade submodules or plugins, in your `~/.vim` directory
 
-	git submodules foreach "git checkout master && git pull"
+    git submodules foreach "git checkout master && git pull"
 
 Shortcut
 --------
