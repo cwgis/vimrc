@@ -9,19 +9,19 @@ I put vim related settings in `bundle/config/plugin/config.vim` and iIsolate oth
 Installing
 ----------
 
-1. Clone this repo::
+1. Clone this repo
 
-   	git clone git://github.com/cwgis/vimrc.git ~/.vim
-    cd ~/.vim && mv vimrc ~/.vimrc
+    `git clone git://github.com/cwgis/vimrc.git ~/.vim`
+    `cd ~/.vim && mv vimrc ~/.vimrc`
 
 2. Fetch submodules, in your `~/.vim` directory::
 
-    git submodules init
-    git submodules update
+    `git submodules init`
+    `git submodules update`
 
 3. Upgrade submodules or plugins, in your `~/.vim` directory::
 
-    git submodules foreach "git checkout master && git pull"
+    `git submodules foreach "git checkout master && git pull"`
 
 Shortcut
 --------
