@@ -2,9 +2,9 @@ vimrc
 =====
 Personal vim configurations and some plugins which used in my daily job.
 
-I put vim related settings in `bundle/config/plugin/config.vim` and iIsolate other plugins' settings in `bundle/config/plugin` directory
+I put vim related settings in `bundle/config/plugin/config.vim` and isolate other plugins' settings in `bundle/config/plugin` directory.
 
-`vimrc`, standard version vimrc only config vimruntime with `pathogen` plugin, you can link your `~/.vimrc` to any one of them as you wish
+`vimrc`, standard version vimrc only config vimruntime with `pathogen` plugin.
 
 Installing
 ----------
