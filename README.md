@@ -10,19 +10,19 @@ Installing
 ----------
 1. Clone this repo::
 
-   	git clone git://github.com/nvie/vimrc.git
+    git clone git://github.com/nvie/vimrc.git
 
 2. Fetch submodules, in your `~/.vim` directory
 
-   	git submodule init
+    git submodule init
 
-   	git submodule update
+    git submodule update
 
 3. Upgrade submodules or plugins, in your `~/.vim` directory
 
-   	git pull
+    git pull
 
-   	git submodules foreach "git checkout master && pull"
+    git submodules foreach "git checkout master && pull"
 
 Shortcut
 --------
