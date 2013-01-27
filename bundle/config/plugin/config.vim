@@ -69,3 +69,15 @@ set mouse=a
 
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
+
+"jump to last cursor position when opening a file
+"don't do it when writing a commit log entry
+autocmd BufReadPost * call SetCursorPosition()
+function! SetCursorPosition()
+	if &filetype !~ 'svn\|commit\c'
+		if line("'\"") > 0 && line("'\"") <= line("$")
+			exe "normal! g`\""
+				normal! zz
+		endif
+	end
+endfunction
