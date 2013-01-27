@@ -6,19 +6,20 @@ I put vim related settings in `bundle/config/plugin/config.vim` and iIsolate oth
 
 `vimrc`, standard version vimrc only config vimruntime with `pathogen` plugin, you can link your `~/.vimrc` to any one of them as you wish
 
-##Installing
+Installing
+----------
 
 1. Clone this repo::
 
-    git clone git://github.com/cwgis/vimrc.git ~/.vim
+   	git clone git://github.com/cwgis/vimrc.git ~/.vim
     cd ~/.vim && mv vimrc ~/.vimrc
 
-2. Fetch submodules, in your `~/.vim` directory
+2. Fetch submodules, in your `~/.vim` directory::
 
     git submodules init
     git submodules update
 
-3. Upgrade submodules or plugins, in your `~/.vim` directory
+3. Upgrade submodules or plugins, in your `~/.vim` directory::
 
     git submodules foreach "git checkout master && git pull"
 
