@@ -8,8 +8,9 @@ I put vim related settings in `bundle/config/plugin/config.vim` and iIsolate oth
 
 Installing
 ----------
+1. Clone this repo:
 
-	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone git://github.com/cwgis/vimrc.git ~/.vim
 
 Shortcut
 --------
