@@ -46,7 +46,9 @@ Shortcut
 
 3. Remove tailing whitespace automatically while saving.
 
-4. Show tab and whitespace symbols
+4. Show tab and whitespace symbols.
+
+5. Jump to last cursor position when opening a file.
 
 Plugin list
 -----------
