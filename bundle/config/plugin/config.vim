@@ -50,7 +50,6 @@ set autoindent
 set backspace=indent,eol,start
 
 " resolve the term and context has chinese string
-"let &termencoding = &encoding
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8
 set fileformats=unix,dos,mac
@@ -63,8 +62,9 @@ set sidescroll=1
 "Display mode your in below
 set showmode
 
-"Display commands executed
+" display commands executed and set cmd height
 set showcmd
+set cmdheight=2
 
 "CMD completeion
 set wildmenu
