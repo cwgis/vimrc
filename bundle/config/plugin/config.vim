@@ -55,6 +55,11 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8
 set fileformats=unix,dos,mac
 
+" start scrolling when we're 5 lines away from margins
+set scrolloff=5
+set sidescrolloff=15
+set sidescroll=1
+
 "Display mode your in below
 set showmode
 
