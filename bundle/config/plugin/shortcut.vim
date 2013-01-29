@@ -47,3 +47,6 @@ nmap nt :NERDTreeToggle<CR>
 
 " enable bufexplorer using bf
 nmap bf :BufExplorer<CR>
+
+" press space to clear search highlighting and any message
+nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
