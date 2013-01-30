@@ -44,6 +44,8 @@ Shortcut
 
 	h. `Ctrl + j` and `Ctrl + k` easier navigation between vertical split windows
 
+	i. `space` to clear search highlighting and any message.
+
 3. Remove tailing whitespace automatically while saving.
 
 4. Show tab and whitespace symbols.
