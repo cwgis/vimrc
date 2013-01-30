@@ -24,7 +24,7 @@ Upgrade submodules or plugins, in your `~/.vim` directory:
 
 Add submodule or plugins, in your `~/.vim` directory:
 
-	git submoduel add git://github.com:username/repo.git bundle/repo
+	git submodule add git://github.com:username/plugin.git bundle/plugin.git
 
 Shortcut
 --------
