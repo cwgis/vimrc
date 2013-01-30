@@ -50,9 +50,10 @@ set autoindent
 set backspace=indent,eol,start
 
 " resolve the term and context has chinese string
-set encoding=utf-8
-set fileencodings=ucs-bom,utf-8
+set fileencoding=utf-8
+set termencoding=utf-8
 set fileformats=unix,dos,mac
+set encoding=utf-8
 
 " start scrolling when we're 5 lines away from margins
 set scrolloff=5
@@ -68,9 +69,6 @@ set cmdheight=2
 
 "CMD completeion
 set wildmenu
-
-" set mouse enable
-set mouse=a
 
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
