@@ -15,7 +15,6 @@ inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
-inoremap <C-d> <Delete>
 
 " Use shift-H and shift-L for move to beginning/end
 nnoremap H 0
