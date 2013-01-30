@@ -22,6 +22,10 @@ Upgrade submodules or plugins, in your `~/.vim` directory:
 
     git submodule foreach "git checkout master && git pull"
 
+Add submodule or plugins, in your `~/.vim` directory:
+
+	git submoduel add git://github.com:username/repo.git bundle/repo
+
 Shortcut
 --------
 1. BACKUP your `.vim` directory and `.vimrc` first.(IMPORTANT!)
