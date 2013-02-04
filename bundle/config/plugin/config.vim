@@ -5,7 +5,8 @@ set t_Co=256
 colorscheme molokai
 
 " enable plugin of every filetype
-"filetype plugin on
+filetype plugin on
+filetype indent on
 
 " display tab and whitespace to check
 set list

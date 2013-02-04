@@ -18,9 +18,7 @@ nnoremap L $
 imap <C-t> <Esc>:tabnew<CR>
 nmap <C-t> :tabnew<CR>
 imap <C-w> <Esc>:tabclose<CR>
-nmap <C-w> :tabclose<CR>
-
-" indentation shortcut
+nmap <C-w> :tabclose<CR> " indentation shortcut
 nmap <TAB> v>
 nmap <S-TAB> v<
 vmap <TAB> >gv
@@ -40,6 +38,9 @@ nmap nt :NERDTreeToggle<CR>
 
 " enable bufexplorer using bf
 nmap bf :BufExplorer<CR>
+
+" enable tagbar plugin
+nmap tt :TagbarToggle<CR>
 
 " press space to clear search highlighting and any message
 nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
