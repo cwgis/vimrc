@@ -50,6 +50,8 @@ Shortcut
 
 	i. `space` to clear search highlighting and any message.
 
+	j. `tt` to toggle Tagbar on and off
+
 3. Remove tailing whitespace automatically while saving.
 
 4. Show tab and whitespace symbols.
