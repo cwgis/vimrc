@@ -70,6 +70,10 @@ set cmdheight=2
 "CMD completeion
 set wildmenu
 
+" set fold
+set foldmethod=syntax
+set foldlevelstart=99
+
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
