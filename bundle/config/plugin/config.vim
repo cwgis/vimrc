@@ -47,6 +47,7 @@ set noexpandtab
 
 " enable auto indentation"
 set autoindent
+set smartindent
 
 " auto read while changing at other place
 " set autoread
