@@ -68,6 +68,9 @@ set showmode
 set showcmd
 set cmdheight=2
 
+" always show the status line
+set laststatus=2
+
 "CMD completeion
 set wildmenu
 
