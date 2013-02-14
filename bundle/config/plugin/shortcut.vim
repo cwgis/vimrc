@@ -1,6 +1,9 @@
 " define leader key is ,
 let mapleader = ","
 
+" Shouldn't need shift
+nnoremap ; :
+
 " more easy <Esc>
 imap <silent> ii <Esc>:w<CR>
 
