@@ -15,12 +15,12 @@ Clone this repo:
 
 Fetch submodules, in your `~/.vim` directory:
 
-    git submodule init
-    git submodule update
+	git submodule init
+	git submodule update
 
 Upgrade submodules or plugins, in your `~/.vim` directory:
 
-    git submodule foreach "git checkout master && git pull"
+	git submodule foreach "git checkout master && git pull"
 
 Add submodule or plugins, in your `~/.vim` directory:
 
@@ -40,7 +40,7 @@ Shortcut
 
 	d. `ii` to Esc and save
 
-	e. `H` and `L` move to beginning/end of line
+	e. `H` and `L` move to first/last letter of line
 
 	f. `,,` to enable zencoding plugin
 
@@ -52,14 +52,20 @@ Shortcut
 
 	j. `tt` to toggle Tagbar on and off
 
+	k. `M` to find related brackets while viewing code
+
 3. Remove tailing whitespace automatically while saving.
 
 4. Show tab and whitespace symbols.
 
 5. Jump to last cursor position when opening a file.
 
+6. Auto complete brackets.
+
 Plugin list
 -----------
+
+
 
 Contact
 -------
@@ -68,3 +74,4 @@ If there's any question or comment, feel free to let me know
 email (caiwengui0927@gmail.com)
 
 weibo [sina](http://weibo.com/u/1929039863?wvr=5&)
+

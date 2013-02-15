@@ -1,8 +1,12 @@
 " define leader key is ,
 let mapleader = ","
 
-" Shouldn't need shift
+" shouldn't need shift
 nnoremap ; :
+
+" :W when I mean to :w and :Q mean to :q
+command! W w
+command! Q q
 
 " more easy <Esc>
 imap <silent> ii <Esc>:w<CR>
@@ -14,14 +18,15 @@ noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
 " Use shift-H and shift-L for move to beginning/end
-nnoremap H 0
+nnoremap H ^
 nnoremap L $
+nnoremap M %
 
 " map tabnew and tabclose
 imap <C-t> <Esc>:tabnew<CR>
 nmap <C-t> :tabnew<CR>
 imap <C-w> <Esc>:tabclose<CR>
-nmap <C-w> :tabclose<CR> " indentation shortcut
+nmap <C-w> :tabclose<CR>
 nmap <TAB> v>
 nmap <S-TAB> v<
 vmap <TAB> >gv
@@ -46,6 +51,9 @@ inoremap { {}<ESC>i
 inoremap } <c-r>=ClosePair('}')<CR>
 inoremap [ []<ESC>i
 inoremap ] <c-r>=ClosePair(']')<CR>
+
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! %!sudo tee > /dev/null %
 
 " ======================================
 "  custom key and plugin configurations

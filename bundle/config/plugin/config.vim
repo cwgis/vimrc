@@ -93,6 +93,9 @@ set wildmenu
 set foldmethod=syntax
 set foldlevelstart=99
 
+" split the window on right and bottom
+set splitright
+
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 

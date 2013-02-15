@@ -55,3 +55,6 @@
 [submodule "bundle/desertEx"]
 	path = bundle/desertEx
 	url = git@github.com:vim-scripts/desertEx.git
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
+	url = git@github.com:tpope/vim-pathogen.git
