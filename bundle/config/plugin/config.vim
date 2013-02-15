@@ -3,6 +3,7 @@ set t_Co=256
 
 " set the color scheme for programming language
 colorscheme molokai
+"colorscheme desert
 
 " enable plugin of every filetype
 filetype plugin on
@@ -11,6 +12,9 @@ filetype indent on
 " display tab and whitespace to check
 set list
 set listchars=tab:>.,trail:.
+
+" turn off lazy redraw
+set nolazyredraw
 
 " make the syntax enable syntax on
 syntax on
@@ -27,6 +31,7 @@ set nocompatible
 
 " set line number
 set number
+set numberwidth=5
 
 " disable line wrapping"
 set nowrap
@@ -62,7 +67,9 @@ set backspace=indent,eol,start
 set fileencoding=utf-8
 set termencoding=utf-8
 set fileformats=unix,dos,mac
-set encoding=utf-8
+
+" use utf-8 without BOM
+set encoding=utf-8 nobomb
 
 " start scrolling when we're 5 lines away from margins
 set scrolloff=5
