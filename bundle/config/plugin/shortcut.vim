@@ -22,11 +22,16 @@ nnoremap H ^
 nnoremap L $
 nnoremap M %
 
+" folding keymap
+nnoremap zz za
+
 " map tabnew and tabclose
 imap <C-t> <Esc>:tabnew<CR>
 nmap <C-t> :tabnew<CR>
 imap <C-w> <Esc>:tabclose<CR>
 nmap <C-w> :tabclose<CR>
+
+" <tab> and <shift><tab> to increase and decrease the syntax identation
 nmap <TAB> v>
 nmap <S-TAB> v<
 vmap <TAB> >gv
