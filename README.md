@@ -54,6 +54,10 @@ Shortcut
 
 	k. `M` to find related brackets while viewing code
 
+	l. `zz` to toggle fold on and off
+
+	m. `mr` to enable mru plguin
+
 2. Remove tailing whitespace automatically while saving.
 
 3. Show tab and whitespace symbols.
