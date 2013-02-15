@@ -75,5 +75,8 @@ nmap bf :BufExplorer<CR>
 " enable tagbar plugin
 nmap tt :TagbarToggle<CR>
 
+" enable MRU plugin
+nmap <leader>f :MRU<CR>
+
 " press space to clear search highlighting and any message
 nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
