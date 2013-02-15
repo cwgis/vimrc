@@ -8,6 +8,8 @@ I put vim related settings in `bundle/config/plugin/config.vim` and isolate othe
 
 Installing
 ----------
+BACKUP your `.vim` directory and `.vimrc` first.(IMPORTANT!)
+
 Clone this repo:
 
 	git clone git://github.com/cwgis/vimrc.git ~/.vim
@@ -28,9 +30,7 @@ Add submodule or plugins, in your `~/.vim` directory:
 
 Shortcut
 --------
-1. BACKUP your `.vim` directory and `.vimrc` first.(IMPORTANT!)
-
-2. Some usually used key mappings in normal mode:
+1. Some usually used key mappings in normal mode:
 
 	a. `nt` to toggle NERDTree on and off
 
@@ -54,13 +54,13 @@ Shortcut
 
 	k. `M` to find related brackets while viewing code
 
-3. Remove tailing whitespace automatically while saving.
+2. Remove tailing whitespace automatically while saving.
 
-4. Show tab and whitespace symbols.
+3. Show tab and whitespace symbols.
 
-5. Jump to last cursor position when opening a file.
+4. Jump to last cursor position when opening a file.
 
-6. Auto complete brackets.
+5. Auto complete brackets.
 
 Plugin list
 -----------
