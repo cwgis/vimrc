@@ -49,9 +49,6 @@
 [submodule "bundle/neocomplcache"]
 	path = bundle/neocomplcache
 	url = git@github.com:Shougo/neocomplcache.git
-[submodule "bundle/authorinfo"]
-	path = bundle/authorinfo
-	url = git@github.com:vim-scripts/AuthorInfo.git
 [submodule "bundle/desertEx"]
 	path = bundle/desertEx
 	url = git@github.com:vim-scripts/desertEx.git
