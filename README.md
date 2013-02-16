@@ -69,7 +69,26 @@ Shortcut
 Plugin list
 -----------
 
+I recommend reading the docs of these plugins to understand them better!
 
+* [bufexplorer.zip](https://github.com/vim-scripts/bufexplorer.zip): Buffer Explorer / Browser. This plugin can be opened with `bf`
+* [mru.vim](https://github.com/vim-scripts/mru.vim): Plugin to manage Most Recently Used (MRU) files. This plugin can be opened with `mr`
+* [desertEx](https://github.com/vim-scripts/desertEx): desertEx colorscheme
+* [molokai](https://github.com/tomasr/molokai): colorscheme like TextMate
+* [html5-syntax.vim](https://github.com/othree/html5-syntax.vim): Plugin of HTML5 Syntax highlighting
+* [jslint.vim](https://github.com/hallettj/jslint.vim): Plugin to check javascript syntax
+* [neocomplcache](https://github.com/Shougo/neocomplcache): Plugin to provides keyword completion system
+* [nerdcommenter](https://github.com/scrooloose/nerdcommenter): Plugin for intensely orgasmic commenting
+* [nerdtree](https://github.com/scrooloose/nerdtree): Plugin to display a tree explorer for vim, This plugin can be opened with `nt`
+* [tagbar](https://github.com/majutsushi/tagbar): Plugin to display tags in a window, ordered by class, This plugin can be opened with `tt`
+* [taglist](https://github.com/vim-scripts/taglist.vim): Source code browser
+* [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax): Add CSS3 syntax support to vim's built-in `syntax/css.vim`
+* [vim-javascript](https://github.com/pangloss/vim-javascript): Vastly improved vim's javascript indentation
+* [vim-markdown](https://github.com/plasticboy/vim-markdown): Syntax highlighting and matching rules for Markdown
+* [pathogen.vim](https://github.com/tpope/vim-pathogen): Manages the runtime path of the plugins
+* [vim-powerline](https://github.com/Lokaltog/vim-powerline): The ultimate vim statusline utility
+* [vim-surround](https://github.com/tpope/vim-surround): Plugin to provide mappings to easily delete, change and add such surroundings in pairs
+* [zencoding-vim](https://github.com/mattn/zencoding-vim): Plugin to support for expanding abbreviation like zen-coding, This plugin can be opened with `,,`
 
 Contact
 -------
