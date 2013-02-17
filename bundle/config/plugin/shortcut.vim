@@ -64,7 +64,7 @@ cmap w!! %!sudo tee > /dev/null %
 "  custom key and plugin configurations
 " ======================================
 " toggle line numer using F5
-nmap <silent> <F5> :set invnu<CR>
+"nmap <silent> nu :set invnu<CR>
 
 " toggle nerdtree using nt
 nmap nt :NERDTreeToggle<CR>

@@ -58,3 +58,9 @@
 [submodule "bundle/mru"]
 	path = bundle/mru
 	url = git@github.com:vim-scripts/mru.vim
+[submodule "bundle/lookupfile"]
+	path = bundle/lookupfile
+	url = git@github.com:vim-scripts/lookupfile.git
+[submodule "bundle/genutils"]
+	path = bundle/genutils
+	url = git@github.com:vim-scripts/genutils.git
