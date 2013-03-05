@@ -72,7 +72,6 @@ Plugin list
 I recommend reading the docs of these plugins to understand them better!
 
 * [bufexplorer.zip](https://github.com/vim-scripts/bufexplorer.zip): Buffer Explorer / Browser. This plugin can be opened with `bf`
-* [mru.vim](https://github.com/vim-scripts/mru.vim): Plugin to manage Most Recently Used (MRU) files. This plugin can be opened with `mr`
 * [desertEx](https://github.com/vim-scripts/desertEx): desertEx colorscheme
 * [molokai](https://github.com/tomasr/molokai): colorscheme like TextMate
 * [html5-syntax.vim](https://github.com/othree/html5-syntax.vim): Plugin of HTML5 Syntax highlighting
@@ -89,6 +88,8 @@ I recommend reading the docs of these plugins to understand them better!
 * [vim-powerline](https://github.com/Lokaltog/vim-powerline): The ultimate vim statusline utility
 * [vim-surround](https://github.com/tpope/vim-surround): Plugin to provide mappings to easily delete, change and add such surroundings in pairs
 * [zencoding-vim](https://github.com/mattn/zencoding-vim): Plugin to support for expanding abbreviation like zen-coding, This plugin can be opened with `,,`
+* [genutils](https://github.com/vim-scripts/genutil): General utility functions
+* [lookupfile](https://github.com/vim-scripts/lookupfile): Lookup files using Vim7 ins-completion
 
 Contact
 -------
