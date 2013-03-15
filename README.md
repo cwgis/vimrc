@@ -64,6 +64,8 @@ Shortcut
 
 5. Auto complete brackets.
 
+6. Auto detect the encodings.
+
 Plugin list
 -----------
 
@@ -71,6 +73,7 @@ I recommend reading the docs of these plugins to understand them better!
 
 * [bufexplorer.zip](https://github.com/vim-scripts/bufexplorer.zip): Buffer Explorer / Browser. This plugin can be opened with `bf`
 * [desertEx](https://github.com/vim-scripts/desertEx): desertEx colorscheme
+* [fencview](https://github.com/mbbill/fencview): Auto detect the encodings
 * [molokai](https://github.com/tomasr/molokai): colorscheme like TextMate
 * [html5-syntax.vim](https://github.com/othree/html5-syntax.vim): Plugin of HTML5 Syntax highlighting
 * [jslint.vim](https://github.com/hallettj/jslint.vim): Plugin to check javascript syntax
