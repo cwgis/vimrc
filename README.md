@@ -8,23 +8,23 @@ I put vim related settings in `bundle/config/plugin/config.vim` and isolate othe
 
 Installing
 ----------
-BACKUP your `.vim` directory and `.vimrc` first.(IMPORTANT!)
-
 Clone this repo:
 
 	git clone git://github.com/cwgis/vimrc.git ~/.vim
-	cd ~/.vim && mv vimrc ~/.vimrc
 
-Fetch submodules, in your `~/.vim` directory:
+Fetch submodules, in your `repos` directory:
+
+	sh deploy.sh
+
+Update and Add plugins
+----------------------
+Upgrade submodules or plugins, in your `repos` directory:
 
 	git submodule init
 	git submodule update
-
-Upgrade submodules or plugins, in your `~/.vim` directory:
-
 	git submodule foreach "git checkout master && git pull"
 
-Add submodule or plugins, in your `~/.vim` directory:
+Add submodule or plugins, in your `repos` directory:
 
 	git submodule add git://github.com:username/plugin.git bundle/plugin
 
