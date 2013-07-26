@@ -84,7 +84,7 @@ set showcmd
 set cmdheight=2
 
 " highlight 80 column
-set cc=90
+set cc=80
 
 " always show the status line
 set laststatus=2
