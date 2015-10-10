@@ -67,3 +67,6 @@
 [submodule "bundle/fencview"]
 	path = bundle/fencview
 	url = git@github.com:mbbill/fencview.git
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = git@github.com:mxw/vim-jsx.git
