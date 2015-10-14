@@ -91,6 +91,7 @@ I recommend reading the docs of these plugins to understand them better!
 * [lookupfile](https://github.com/vim-scripts/lookupfile): Lookup files using Vim7 ins-completion
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script.git): CoffeeScript syntax support
 * [vim-jsx](https://github.com/mxw/vim-jsx.git): JSX syntax support
+* [scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim.git): SCSS syntax support
 
 Contact
 -------
