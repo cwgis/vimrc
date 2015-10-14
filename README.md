@@ -89,7 +89,8 @@ I recommend reading the docs of these plugins to understand them better!
 * [vim-surround](https://github.com/tpope/vim-surround): Plugin to provide mappings to easily delete, change and add such surroundings in pairs
 * [genutils](https://github.com/vim-scripts/genutil): General utility functions
 * [lookupfile](https://github.com/vim-scripts/lookupfile): Lookup files using Vim7 ins-completion
-* [vim-coffee-script](git@github.com:kchmck/vim-coffee-script.git): CoffeeScript syntax support
+* [vim-coffee-script](https://github.com/kchmck/vim-coffee-script.git): CoffeeScript syntax support
+* [vim-jsx](https://github.com/mxw/vim-jsx.git): JSX syntax support
 
 Contact
 -------
