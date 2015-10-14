@@ -10,51 +10,51 @@ Installing
 ----------
 Clone this repo:
 
-	git clone git://github.com/cwgis/vimrc.git ~/.vim
+    git clone git://github.com/cwgis/vimrc.git ~/.vim
 
 Fetch submodules, in your `repos` directory:
 
-	sh deploy.sh
+    sh deploy.sh
 
 Update and Add plugins
 ----------------------
 Upgrade submodules or plugins, in your `repos` directory:
 
-	git submodule init
-	git submodule update
-	git submodule foreach "git checkout master && git pull"
+    git submodule init
+    git submodule update
+    git submodule foreach "git checkout master && git pull"
 
 Add submodule or plugins, in your `repos` directory:
 
-	git submodule add git://github.com:username/plugin.git bundle/plugin
+    git submodule add git://github.com:username/plugin.git bundle/pluginname
 
 Shortcut
 --------
 1. Some usually used key mappings in normal mode:
 
-	a. `nt` to toggle NERDTree on and off
+    a. `nt` to toggle NERDTree on and off
 
-	b. `bf` to toggle bufexplorer on and off
+    b. `bf` to toggle bufexplorer on and off
 
-	c. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
+    c. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
 
-	d. `ii` to Esc and save
+    d. `ii` to Esc and save
 
-	e. `H` and `L` move to first/last letter of line
+    e. `H` and `L` move to first/last letter of line
 
-	f. `,,` to enable zencoding plugin
+    f. `,,` to enable zencoding plugin
 
-	g. `Ctrl + h` and `Ctrl + l` easier navigation between horizontal split windows
+    g. `Ctrl + h` and `Ctrl + l` easier navigation between horizontal split windows
 
-	h. `Ctrl + j` and `Ctrl + k` easier navigation between vertical split windows
+    h. `Ctrl + j` and `Ctrl + k` easier navigation between vertical split windows
 
-	i. `space` to clear search highlighting and any message.
+    i. `space` to clear search highlighting and any message.
 
-	j. `tt` to toggle Tagbar on and off
+    j. `tt` to toggle Tagbar on and off
 
-	k. `M` to find related brackets while viewing code
+    k. `M` to find related brackets while viewing code
 
-	l. `zz` to toggle fold on and off
+    l. `zz` to toggle fold on and off
 
 2. Remove tailing whitespace automatically while saving.
 
@@ -76,7 +76,6 @@ I recommend reading the docs of these plugins to understand them better!
 * [fencview](https://github.com/mbbill/fencview): Auto detect the encodings
 * [molokai](https://github.com/tomasr/molokai): colorscheme like TextMate
 * [html5-syntax.vim](https://github.com/othree/html5-syntax.vim): Plugin of HTML5 Syntax highlighting
-* [jslint.vim](https://github.com/hallettj/jslint.vim): Plugin to check javascript syntax
 * [neocomplcache](https://github.com/Shougo/neocomplcache): Plugin to provides keyword completion system
 * [nerdcommenter](https://github.com/scrooloose/nerdcommenter): Plugin for intensely orgasmic commenting
 * [nerdtree](https://github.com/scrooloose/nerdtree): Plugin to display a tree explorer for vim, This plugin can be opened with `nt`
@@ -88,9 +87,9 @@ I recommend reading the docs of these plugins to understand them better!
 * [pathogen.vim](https://github.com/tpope/vim-pathogen): Manages the runtime path of the plugins
 * [vim-powerline](https://github.com/Lokaltog/vim-powerline): The ultimate vim statusline utility
 * [vim-surround](https://github.com/tpope/vim-surround): Plugin to provide mappings to easily delete, change and add such surroundings in pairs
-* [zencoding-vim](https://github.com/mattn/zencoding-vim): Plugin to support for expanding abbreviation like zen-coding, This plugin can be opened with `,,`
 * [genutils](https://github.com/vim-scripts/genutil): General utility functions
 * [lookupfile](https://github.com/vim-scripts/lookupfile): Lookup files using Vim7 ins-completion
+* [vim-coffee-script](git@github.com:kchmck/vim-coffee-script.git): CoffeeScript syntax support
 
 Contact
 -------

@@ -1,69 +1,69 @@
 [submodule "bundle/molokai"]
-	path = bundle/molokai
-	url = git@github.com:tomasr/molokai.git
+    path = bundle/molokai
+    url = git@github.com:tomasr/molokai.git
 [submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
-	url = git@github.com:pangloss/vim-javascript
+    path = bundle/vim-javascript
+    url = git@github.com:pangloss/vim-javascript
 [submodule "bundle/viligth.vim"]
-	path = bundle/viligth.vim
-	url = git@github.com:vim-scripts/vilight.vim.git
+    path = bundle/viligth.vim
+    url = git@github.com:vim-scripts/vilight.vim.git
 [submodule "bundle/bufexplorer"]
-	path = bundle/bufexplorer
-	url = git@github.com:vim-scripts/bufexplorer.zip.git
+    path = bundle/bufexplorer
+    url = git@github.com:vim-scripts/bufexplorer.zip.git
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
+    path = bundle/nerdtree
+    url = git@github.com:scrooloose/nerdtree.git
 [submodule "bundle/zencoding-vim"]
-	path = bundle/zencoding-vim
-	url = git@github.com:mattn/zencoding-vim.git
+    path = bundle/zencoding-vim
+    url = git@github.com:mattn/zencoding-vim.git
 [submodule "bundle/html5-syntax"]
-	path = bundle/html5-syntax
-	url = git@github.com:othree/html5-syntax.vim.git
+    path = bundle/html5-syntax
+    url = git@github.com:othree/html5-syntax.vim.git
 [submodule "bundle/vim-css3-syntax"]
-	path = bundle/vim-css3-syntax
-	url = git@github.com:hail2u/vim-css3-syntax.git
+    path = bundle/vim-css3-syntax
+    url = git@github.com:hail2u/vim-css3-syntax.git
 [submodule "bundle/vim-powerline"]
-	path = bundle/vim-powerline
-	url = git@github.com:Lokaltog/vim-powerline.git
+    path = bundle/vim-powerline
+    url = git@github.com:Lokaltog/vim-powerline.git
 [submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = git@github.com:vim-scripts/taglist.vim
+    path = bundle/taglist
+    url = git@github.com:vim-scripts/taglist.vim
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
-	url = git@github.com:tpope/vim-surround.git
-[submodule "bundle/jslint.vim"]
-	path = bundle/jslint.vim
-	url = git@github.com:hallettj/jslint.vim.git
+    path = bundle/vim-surround
+    url = git@github.com:tpope/vim-surround.git
 [submodule "bundle/gist-vim"]
-	path = bundle/gist-vim
-	url = git@github.com:mattn/gist-vim.git
+    path = bundle/gist-vim
+    url = git@github.com:mattn/gist-vim.git
 [submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
-	url = git@github.com:scrooloose/nerdcommenter.git
+    path = bundle/nerdcommenter
+    url = git@github.com:scrooloose/nerdcommenter.git
 [submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = git@github.com:plasticboy/vim-markdown
+    path = bundle/vim-markdown
+    url = git@github.com:plasticboy/vim-markdown
 [submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = git@github.com:majutsushi/tagbar.git
+    path = bundle/tagbar
+    url = git@github.com:majutsushi/tagbar.git
 [submodule "bundle/neocomplcache"]
-	path = bundle/neocomplcache
-	url = git@github.com:Shougo/neocomplcache.git
+    path = bundle/neocomplcache
+    url = git@github.com:Shougo/neocomplcache.git
 [submodule "bundle/desertEx"]
-	path = bundle/desertEx
-	url = git@github.com:vim-scripts/desertEx.git
+    path = bundle/desertEx
+    url = git@github.com:vim-scripts/desertEx.git
 [submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = git@github.com:tpope/vim-pathogen.git
+    path = bundle/vim-pathogen
+    url = git@github.com:tpope/vim-pathogen.git
 [submodule "bundle/mru"]
-	path = bundle/mru
-	url = git@github.com:vim-scripts/mru.vim
+    path = bundle/mru
+    url = git@github.com:vim-scripts/mru.vim
 [submodule "bundle/lookupfile"]
-	path = bundle/lookupfile
-	url = git@github.com:vim-scripts/lookupfile.git
+    path = bundle/lookupfile
+    url = git@github.com:vim-scripts/lookupfile.git
 [submodule "bundle/genutils"]
-	path = bundle/genutils
-	url = git@github.com:vim-scripts/genutils.git
+    path = bundle/genutils
+    url = git@github.com:vim-scripts/genutils.git
 [submodule "bundle/fencview"]
-	path = bundle/fencview
-	url = git@github.com:mbbill/fencview.git
+    path = bundle/fencview
+    url = git@github.com:mbbill/fencview.git
+[submodule "bundle/vim-coffee-script"]
+    path = bundle/vim-coffee-script
+    url = git@github.com:kchmck/vim-coffee-script.git

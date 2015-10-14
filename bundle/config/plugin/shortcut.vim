@@ -42,20 +42,20 @@ nmap Y y$
 
 " prevent repeat input after auto complete
 function! ClosePair(char)
-	if getline('.')[col('.') - 1]== a:char
-		return "\<Right>"
-	else
-		return a:char
-	endif
+    if getline('.')[col('.') - 1]== a:char
+        return "\<Right>"
+    else
+        return a:char
+    endif
 endf
 
 " auto complete parentheses
-inoremap ( ()<ESC>i
-inoremap ) <c-r>=ClosePair(')')<CR>
-inoremap { {}<ESC>i
-inoremap } <c-r>=ClosePair('}')<CR>
-inoremap [ []<ESC>i
-inoremap ] <c-r>=ClosePair(']')<CR>
+" inoremap ( ()<ESC>i
+" inoremap ) <c-r>=ClosePair(')')<CR>
+" inoremap { {}<ESC>i
+" inoremap } <c-r>=ClosePair('}')<CR>
+" inoremap [ []<ESC>i
+" inoremap ] <c-r>=ClosePair(']')<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! %!sudo tee > /dev/null %

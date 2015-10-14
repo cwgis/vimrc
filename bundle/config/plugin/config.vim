@@ -20,7 +20,7 @@ set nolazyredraw
 syntax on
 
 " enable spell check and set language to English"
-setlocal spell spelllang=en_us
+" setlocal spell spelllang=en_us
 
 " highlight search results"
 set hlsearch
@@ -48,7 +48,7 @@ set shiftwidth=4
 set softtabstop=4
 
 " enabla for listchars
-set noexpandtab
+set expandtab
 
 " enable auto indentation"
 set autoindent
@@ -84,7 +84,7 @@ set showcmd
 set cmdheight=2
 
 " highlight 80 column
-set cc=80
+" set cc=80
 
 " always show the status line
 set laststatus=2
@@ -106,10 +106,10 @@ autocmd BufWritePre * :%s/\s\+$//e
 " don't do it when writing a commit log entry
 autocmd BufReadPost * call SetCursorPosition()
 function! SetCursorPosition()
-	if &filetype !~ 'svn\|commit\c'
-		if line("'\"") > 0 && line("'\"") <= line("$")
-			exe "normal! g`\""
-				normal! zz
-		endif
-	end
+    if &filetype !~ 'svn\|commit\c'
+        if line("'\"") > 0 && line("'\"") <= line("$")
+            exe "normal! g`\""
+                normal! zz
+        endif
+    end
 endfunction
